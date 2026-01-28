@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+
+<body>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="index2.html">Add Songs</a></li>
+    <li><a href="#contact"></a></li>
+   
+  </ul>
+
+  <div id="London" class="tabcontent">
+    <h1>London</h1>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+    <h1>Paris</h1>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Tokyo" class="tabcontent">
+    <h1>Tokyo</h1>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  
+  <div id="Oslo" class="tabcontent">
+    <h1>Oslo</h1>
+    <p>Oslo is the capital of Norway.</p>
+  </div>
+  
+  <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+  <button class="tablink" onclick="openCity('Paris', this, 'green')" >Paris</button>
+  <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+  <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+
+
+
+  
+    <div class="grid-container">
+    <div class="square">
+
+    </div>
+    </div>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+div.form{
+  position: relative;
+}
+
+div.grid-container {
+    background-color: lightblue;
+    width: 900px;
+    height: 600px;
+    overflow: auto;
+  border:#111111;
+  
+
+   
+    font-size: large;
+   line-height: normal;
+   grid-template-columns: auto auto;
+   display:grid;
+   text-align: center;
+   color: aliceblue;
+  }
+   .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 100px;
+  border-radius: 25px;
+  background-color: gray;
+  
+  
+  
+  background-image: url("Desktop\ -\ 1.png");
+  background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 1rem;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  
+}
+  
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+#setting-form{
+position: relative;
+
+};
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
